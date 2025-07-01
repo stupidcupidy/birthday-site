@@ -125,19 +125,6 @@ export default function BirthdayCelebration() {
           </div>
         </div>
       </motion.div>
-      <motion.div
-  initial={{ opacity: 0, y: 20 }}
-  animate={{ opacity: 1, y: 0 }}
-  transition={{ delay: 3.5 }}
-  className=“mt-8 px-6 text-center text-base sm:text-lg text-gray-300”
->
-  <p className=“whitespace-pre-line leading-relaxed”>
-    Distance may keep us apart or I may not have your photos,{“\n”}
-    but it won’t stop me from wishing you a happy birthday.{“\n”}
-    Smile a lot :){“\n\n”}
-    – 🤍🩵 Harshit 🤍🩵 –
-  </p>
-</motion.div>
     </div>
   )
 }
