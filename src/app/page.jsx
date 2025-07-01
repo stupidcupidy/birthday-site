@@ -18,19 +18,8 @@ export default function Home() {
   const audioRef = useRef(null)
 
   // For testing
-  // const birthdayDate = new Date
-    <div style={{ display: 'flex', justifyContent: 'center', marginTop: '20px' }}>
-  <img 
-    src="/12D37B78-87F1-4805-B396-4C69CA0DC500.jpeg" 
-    alt="Birthday Cake for Khushi" 
-    style={{ 
-      maxWidth: '300px', 
-      borderRadius: '12px', 
-      boxShadow: '0 4px 12px rgba(0,0,0,0.2)' 
-    }} 
-  />
-</div>
-
+  // const birthdayDate = new Date("2025-04-23T22:03:00+05:30)
+  
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false)
